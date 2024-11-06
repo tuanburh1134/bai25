@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll to Section</title>
+  <style>
+    body {
+      font-family: Tahoma;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Header */
+    header {
+      background-color: #FF4D4D; /* màu đỏ */
+      padding: 10px;
+      text-align: center; /* căn giữa chữ */
+      color: white;
+    }
+
+    /* Nav */
+    nav {
+      background-color: #6DFFB9; /* màu xanh lá */
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex; /* hiển thị các item theo chiều ngang */
+    }
+
+    nav li {
+      margin-right: 20px;
+      border-right: 1px solid #ffffff; /* thanh ngăn cách màu trắng */
+      padding-right: 20px;
+    }
+
+    nav li:last-child {
+      border-right: none; /* xóa thanh ngăn cách cho mục cuối cùng */
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #006EFF; /* màu xanh dương */
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Section */
+    section {
+      height: auto;
+      padding: 20px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: start;
+      font-size: 18px;
+      background-color: #FFE686; /* màu vàng */
+      border-bottom: 2px solid #A6A6A6; /* Viền ngăn cách giữa các section */
+    }
+
+    /* Styling for figure and image */
+    figure {
+      margin: 0 20px 0 0; /* khoảng cách giữa ảnh và văn bản */
+      max-width: 300px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    figcaption {
+      font-size: 14px;
+      text-align: center;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Chương Trình Đào Tạo Pitech</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#section1">Lập trình Web và Mobile (fullstack)</a></li>
+    <li><a href="#section2">Thiết kế UX/UI đỉnh cao</a></li>
+    <li><a href="#section3">Chinh phục các mô hình AI</a></li>
+  </ul>
+</nav>
+
+<section id="section1">
+  <figure>
+    <img src="3-2-1.png" alt="Lập trình Web và Mobile">
+    <figcaption>Hình ảnh mô tả khóa học lập trình Web và Mobile</figcaption>
+  </figure>
+  <p>
+    Tại trung tâm đào tạo Pitech, chúng tôi tự hào cung cấp chương trình dạy lập trình Web và mobile fullstack với chất lượng đào tạo hàng đầu. Chương trình của chúng tôi không chỉ đảm bảo kiến thức chuyên sâu mà còn tập trung vào việc thực hành, giúp sinh viên xây dựng kỹ năng thực tế cao.
+    <br><br>
+    Chúng tôi sử dụng phương pháp giảng dạy hiện đại, kết hợp giữa lý thuyết và bài tập thực hành, giúp sinh viên hiểu rõ từng khái niệm và áp dụng linh hoạt trong các dự án thực tế. Ngoài ra, chúng tôi còn tổ chức các buổi thảo luận, hội thảo, và sự kiện với sự tham gia của các chuyên gia hàng đầu trong ngành.
+  </p>
+</section>
+
+<section id="section2">
+  <figure>
+    <img src="7026-MD053-Baner-1280x720-Figma-UI-Design-R03.png" alt="Thiết kế UX/UI đỉnh cao">
+    <figcaption>Hình ảnh mô tả khóa học Thiết kế UX/UI</figcaption>
+  </figure>
+  <p>
+    Tại trung tâm đào tạo Pitech, chúng tôi tự hào giới thiệu chương trình dạy Thiết kế UX/UI đỉnh cao, mang đến cho sinh viên sự hiểu biết sâu rộng về trải nghiệm người dùng và giao diện người dùng. Chương trình này không chỉ tập trung vào việc truyền đạt kiến thức cơ bản mà còn đặt nặng vào việc phát triển kỹ năng sáng tạo và tư duy thiết kế.
+    <br><br>
+    Đội ngũ giảng viên tại Pitech đều là những chuyên gia hàng đầu trong lĩnh vực Thiết kế UX/UI, có kinh nghiệm thực tế và khả năng chia sẻ kiến thức một cách sâu sắc.
+  </p>
+</section>
+
+<section id="section3">
+  <figure>
+    <img src="Hình-ảnh-EBM-26.png" alt="Chinh phục các mô hình AI">
+    <figcaption>Hình ảnh mô tả khóa học AI</figcaption>
+  </figure>
+  <p>
+    Tại trung tâm đào tạo Pitech, chúng tôi tổ chức chương trình đào tạo về Chinh phục các mô hình AI, hướng dẫn sinh viên từ những kiến thức cơ bản đến những ứng dụng phức tạp và thực tế trong lĩnh vực Trí tuệ Nhân tạo.
+    <br><br>
+    Chương trình này không chỉ tập trung vào việc truyền đạt kiến thức lý thuyết mà còn chú trọng vào việc phát triển kỹ năng thực hành và ứng dụng.
+  </p>
+</section>
+
+<footer>
+  <p>Trung Tâm Đào Tạo Pitech - 2024</p>
+</footer>
+
+</body>
+</html>
